@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: starbiloz/gitops01:618cb883cdc2085631a940a82cd0b2344ff6ac8a
+        image: starbiloz/reactapp-ci:c3ff6a2f80cbd2e62dfda6736953c8f3fb415a7c
         imagePullPolicy: Always
         resources:
           requests:
